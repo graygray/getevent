@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetEvent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="string_start">Start</string>
+    <string name="string_stop">Stop</string>
+    <string name="string_clean">Clean</string>
+    <string name="string_info">Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_output">Output...</string>
+    <string name="pref_title_tag_t">Enable Parameter t</string>
+    <string name="pref_description_tag_t">show time stamps</string>
+    <string name="pref_title_tag_l">Enable Parameter l</string>
+    <string name="pref_description_read_raw">check this will not use \"getevent\" command</string>
+    <string name="pref_title_read_raw">Read Raw</string>
+    <string name="pref_description_tag_l">label event types and names in plain text</string>
+    <string name="pref_title_device_path">Choose Monitored Event</string>
+
+</resources>

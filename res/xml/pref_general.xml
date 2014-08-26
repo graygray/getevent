@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_read_raw"
+        android:summary="@string/pref_description_read_raw"
+        android:title="@string/pref_title_read_raw" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_tag_t"
+        android:summary="@string/pref_description_tag_t"
+        android:title="@string/pref_title_tag_t" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_tag_l"
+        android:summary="@string/pref_description_tag_l"
+        android:title="@string/pref_title_tag_l" />
+    
+ 	<ListPreference
+        android:defaultValue=""
+        android:key="pref_device_path"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_device_path" />
+    
+</PreferenceScreen>
